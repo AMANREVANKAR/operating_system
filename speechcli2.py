@@ -1,6 +1,6 @@
 import cmd
 import os
-import shutil
+import shutilji
 import subprocess
 import speech_recognition as sr
 
@@ -20,7 +20,6 @@ class CommandForgeCLI(cmd.Cmd):
         for item in files_and_dirs:
             print(item)
 
-    # Define other command methods...
 
     def do_quit(self, line):
         """Exit the CLI."""
